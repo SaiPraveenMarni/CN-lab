@@ -24,7 +24,7 @@ crc(n);
 printf("\n\nquotient:%s",q);
 caltrans(n);
 printf("\ntransmitted frame:%s",m);
-printf("\nEnter transmitted freme:");
+printf("\nEnter transmitted frame:");
 scanf("\n%s",m);
 printf("CRC checking\n");
 crc(n);
@@ -37,7 +37,7 @@ continue;
 if(flag==1)
 printf("Error during transmission");
 else
-printf("\n\nReceived freme is correct");
+printf("\n\nReceived frame is correct");
 }
 void crc(int n)
 {
